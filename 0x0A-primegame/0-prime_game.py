@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def sieve_of_eratosthenes(limit):
     primes = [True] * (limit + 1)
     primes[0] = primes[1] = False  # 0 and 1 are not prime numbers
